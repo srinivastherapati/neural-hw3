@@ -1,1 +1,10 @@
-# neural-hw3
+Student-Id:700755602
+Srinivas Therapati
+
+1.This project implements a basic autoencoder using TensorFlow and Keras to reconstruct MNIST handwritten digit images. The model compresses 784-dimensional input into a 32-dimensional latent space and then decodes it back. It is trained using binary cross-entropy loss. The project visualizes original vs. reconstructed images to evaluate performance. It also experiments with different latent space sizes (16, 64) to analyze their effect on reconstruction quality.
+
+2.This project builds a denoising autoencoder using TensorFlow and Keras to clean noisy MNIST digit images. Gaussian noise (mean=0, std=0.5) is added to inputs, while the model is trained to reconstruct the original clean images. The architecture is based on a fully connected autoencoder. Visualizations compare noisy inputs with reconstructed outputs. The model's performance is compared with a basic autoencoder. A real-world application includes removing noise from medical or surveillance images.
+
+3.This project implements an LSTM-based RNN using TensorFlow and Keras to generate text character-by-character. A text dataset (e.g., Shakespeare) is processed into character sequences and used to train the model to predict the next character. After training, the model generates new text by sampling one character at a time. Temperature scaling is used to control randomness in predictions—lower values produce more conservative output, while higher values increase creativity and variation in the generated text.
+
+4.This project uses an LSTM-based RNN to perform sentiment classification on the IMDB movie reviews dataset. The text data is preprocessed through tokenization and sequence padding. The model is trained to classify reviews as either positive or negative. After training, performance is evaluated using a confusion matrix and classification report (accuracy, precision, recall, F1-score). The importance of the precision-recall tradeoff is discussed, especially in scenarios where false positives or false negatives can impact user trust or business outcomes.
